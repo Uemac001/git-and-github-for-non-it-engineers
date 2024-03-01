@@ -1,0 +1,56 @@
+#####################################################################
+GitHubとの連携
+#####################################################################
+
+Source TreeとGitHubを連携させます。
+
+Source Tree上でGitHub上のリポジトリ一覧を表示してクローンしたりできるので便利です。
+
+まずはSource Treeを起動します。
+
+.. figure:: image/02/010.png
+
+:menuselection:`ツール --> オプション` から設定画面を開きます。
+
+.. figure:: image/02/020.png
+
+設定画面で「認証」タブを選択します。
+
+.. figure:: image/02/030.png
+
+認証タブの「追加」をクリックします。
+
+.. figure:: image/02/040.png
+
+「ホスティングアカウントを設定」というダイアログが現れるので、以下のように設定して :menuselection:`OAuth トークンを再読み込み` をクリックします。
+
+.. glossary:: 
+    
+    ホスティングサービス
+        「GitHub」を選択
+
+    優先するプロトコル
+        「SSH」を選択
+
+.. figure:: image/02/050.png
+
+するとwebブラウザが立ち上がりGitHubにログインしていると以下のような画面が表示されるので :menuselection:`Authorize atlassian` をクリックします。
+
+.. figure:: image/02/060.png
+
+GitHubのパスワードを求められるので入力して :menuselection:`Confirm` をクリックします。
+
+.. warning:: 
+
+        GitHubで設定している認証方法によってはここの認証方法は異なります。
+
+.. figure:: image/02/070.png
+
+認証に成功するとブラウザが自動で閉じて先ほどのダイアログに「認証に成功」と表示されるので :menuselection:`OK` を押します。
+
+.. figure:: image/02/080.png
+
+| 追加されたアカウントが設定画面の認証タブに表示されているはずです。
+| 確認したら :menuselection:`OK` をクリックして設定画面を閉じます。
+
+.. figure:: image/02/080.png

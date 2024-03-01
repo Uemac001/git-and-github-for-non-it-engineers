@@ -1,0 +1,41 @@
+.. role:: nonhead
+  :class: nonhead
+
+#####################################################################
+VScode
+#####################################################################
+
+:nonhead:`Studio Codeとは`
+
+- ひらたく言えばWindowsのメモ帳アプリの仲間です
+- 統合開発環境: `IDE（Integrated Development Environment）` とよばれるソフトです
+- テキスト編集機能に加えてデバッグ機能などプログラム開発に役立つ機能が盛り沢山です
+- よくVSCodeと略されます
+
+詳しく知りたい方は以下を御覧ください。
+
+- 公式サイト: `Visual Studio Code - Code Editing. Redefined <https://code.visualstudio.com/>`_
+- 公式リファレンス: `Documentation for Visual Studio Code <https://code.visualstudio.com/docs>`_
+- Wikipedia: `Visual Studio Code - Wikipedia <https://ja.wikipedia.org/wiki/Visual_Studio_Code>`_
+
+:nonhead:`なぜStudio Codeをオススメするのか`
+
+
+- 無料だから
+- 使いやすいから
+- 拡張機能が豊富だから
+- ユーザーが多く、調べればすぐ解決方法が見つかるから
+- ソルバー開発者で環境をある程度統一させたほうがサポートが楽だから
+- 現在GitHubはMicrosoft傘下で、VScodeもMicrosoftのソフトなので親和性が高いから
+
+------------------------------
+
+.. toctree:: 
+    :maxdepth: 1
+
+    01/01
+    01/02
+    01/03
+    01/04
+
+

@@ -3,18 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to 非ITエンジニアに向けたGit,GitHubのすすめ's documentation!
-====================================================================
+#####################################################################
+非ITエンジニアに向けたGit,GitHubのすすめ
+#####################################################################
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
+   01_Introduction
+   02_Reference
+   03_Environment 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
