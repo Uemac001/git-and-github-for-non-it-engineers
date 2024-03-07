@@ -10,19 +10,20 @@
 
 公式サイト: `Visual Studio Code - Code Editing. Redefined <https://code.visualstudio.com/>`_
 
-`公式サイト <https://code.visualstudio.com/>`_ トップページの `Download for Windows Stable Build` のリンクから最新の安定版を入手できます。
+`公式サイト <https://code.visualstudio.com/>`_ トップページの 「Download for Windows Stable Build」 のリンクから最新の安定版を入手できます。
 
 .. figure:: image/01/010.png
     :width: 100%
 
+-------------------------------------------------------------------------------
+
 
 画面が `公式リファレンス <https://code.visualstudio.com/docs/?dv=win64user>`_ に切り替わり、インストーラーがダウンロードされたらブラウザは閉じても大丈夫です。
 
-.. note:: 
-    ダウンロードが自動で始まらない場合は以下の画像で示すリンクをクリック
 
-    .. figure:: image/01/020.png
-        :width: 100%
+.. figure:: image/01/020.png
+    :width: 100%
+
 
 *********************************************************************
 インストール
