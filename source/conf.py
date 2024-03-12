@@ -16,6 +16,7 @@ author = "Keita Hoshino"
 extensions = [
     # ... other extensions
     "sphinx_search.extension",
+    "sphinx_design",
 ]
 
 templates_path = ["_templates"]
