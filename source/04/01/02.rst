@@ -53,6 +53,7 @@ GitHub: https://github.com/
 | ログインをするとダッシュボードが表示された状況になると思います。右上にある :guilabel:`+` ボタンをクリックすると新規作成メニューが開くので :guilabel:`New repository` をクリックして新規リポジトリ作成画面に移動します。
 
 .. figure:: image/02/010.gif
+    :width: 100%
 
 
 
@@ -94,6 +95,7 @@ GitHub: https://github.com/
 今回は以下のように設定してみました。内容を確認して問題なければ :guilabel:`Create repository` をクリックしてリポジトリ作成しましょう。
 
 .. figure:: image/02/030.png
+    :width: 80%
 
 
 
@@ -103,7 +105,7 @@ GitHub: https://github.com/
 :file:`README` 、 :file:`.gitignore` 、:file:`LICENSE` のいずれかを追加していて、リポジトリにファイルとコミットがある場合、以下のような画面が表示されると思います。
 
 .. figure:: image/02/040.png
-
+    :width: 100%
 
 
 ----------------------------------------------------------------------
@@ -113,6 +115,7 @@ GitHub: https://github.com/
 今回はSSHで通信を行う予定なのでSSHタブに記載されているアドレスをコピーします。
 
 .. figure:: image/02/060.gif
+    :width: 90%
 
 .. hint:: 
     | 上記のようにファイルを追加しておらず、リポジトリにコミットがひとつもない場合以下のような画面が表示されます。
@@ -138,6 +141,7 @@ GitHub: https://github.com/
 プロジェクトのフォルダ（作業ディレクトリ）を作成したいフォルダをエクスプローラーで開きます。場所は任意です。
 
 .. figure:: image/02/070.png
+    :width: 70%
 
 2-2 TortoiseGitでリモートリポジトリを複製する
 ======================================================================
@@ -145,6 +149,7 @@ GitHub: https://github.com/
 先ほど開いたフォルダで :menuselection:`右クリック -> Git ここにリポジトリを作成` からTortoiseGitを立ち上げます。
 
 .. figure:: image/02/080.png
+    :width: 90%
 
 
 
@@ -154,6 +159,7 @@ GitHub: https://github.com/
 | ただクローンするだけであればデフォルトのままで大丈夫です。ディレクトリ名はデフォルトだとリモートリポジトリの名前でフォルダが作成されます。
 
 .. figure:: image/02/090.png
+    :width: 90%
 
 
 
@@ -163,6 +169,7 @@ GitHub: https://github.com/
 | 失敗した場合はSSHキーの設定などを見直しましょう
 
 .. figure:: image/02/100.png
+    :width: 60%
 
 
 
@@ -172,6 +179,7 @@ GitHub: https://github.com/
 | フォルダの中を見るとローカルリポジトリ（ :file:`.git` ）と :file:`README` 、 :file:`LICENSE` が複製されています。
 
 .. figure:: image/02/110.png
+    :width: 90%
 
 .. hint:: 
     デフォルトのオプションで複製（クローン）を行った場合、リモートリポジトリのデフォルトブランチからローカルのブランチが作成され、そのローカルブランチにチェックアウトした状態になります。（リモートリポジトリのデフォルトブランチのスナップショットが作業ディレクトリに書き出された状態）
@@ -194,6 +202,7 @@ GitHub: https://github.com/
 先程のプロジェクトフォルダーで :menuselection:`右クリック -> Code で開く` から、VSCodeでプロジェクトフォルダを開きます。
 
 .. figure:: image/02/120.png
+    :width: 70%
 
 
 
@@ -202,6 +211,7 @@ GitHub: https://github.com/
 エクスプローラータブで :file:`README.md` をクリックして開きます。
 
 .. figure:: image/02/130.gif
+    :width: 100%
 
 
 
@@ -223,6 +233,7 @@ GitHub: https://github.com/
 | :file:`test.txt` というテキストファイルを作成してみましょう。
 
 .. figure:: image/02/150.gif
+    :width: 100%
 
 .. hint::
    ファイル名は拡張子まで記入してください。
@@ -241,6 +252,7 @@ GitHub: https://github.com/
 | サイドバーのエクスプローラーで消したいファイル（今回は :file:`LICENSE` ）を :menuselection:`右クリック -> 削除` か、選択して :kbd:`Delete` でファイルを削除できます。
 
 .. figure:: image/02/160.gif
+    :width: 100%
 
 
 
@@ -261,6 +273,7 @@ GitHub: https://github.com/
 | VSCodeのアクティビティバーで :guilabel:`ソース管理` のアイコンをクリックしましょう。
 
 .. figure:: image/02/170.gif
+    :width: 100%
 
 
 
@@ -270,6 +283,7 @@ GitHub: https://github.com/
 | 先ほど編集・追加・削除したファイルが :guilabel:`変更` タブに表示されてることを確認してください。
 
 .. figure:: image/02/180.png
+    :width: 100%
 
 .. hint::
     この時、ファイル名の右側に表示されているアルファベットはファイルの状態を表しています。
@@ -294,6 +308,7 @@ GitHub: https://github.com/
 | ファイルをクリックすると、エディター部に変更の差分が表示されるのでステージングの前に内容を一度確認しておきましょう。
 
 .. figure:: image/02/190.gif
+    :width: 100%
 
 
 
@@ -303,6 +318,7 @@ GitHub: https://github.com/
 | VSCodeではこの操作でステージングを行うことが出来ます。また、:guilabel:`変更` に表示される :guilabel:`+` をクリックすると、変更タブにある全てのファイルがステージングされます。
 
 .. figure:: image/02/200.gif
+    :width: 100%
 
 
 
@@ -312,6 +328,7 @@ GitHub: https://github.com/
 コミットしたいファイルをステージングしたら、コミットメッセージを入力して :guilabel:`✓コミット` をクリックしてコミットします。
 
 .. figure:: image/02/210.gif
+    :width: 100%
 
 
 
@@ -323,6 +340,7 @@ GitHub: https://github.com/
 | 各コミットをクリックすると、そのコミット更新されたファイルの一覧が表示され、この画面から差分やそのコミット時のファイルを確認することが出来ます。
 
 .. figure:: image/02/220.gif
+    :width: 100%
 
 
 
@@ -333,6 +351,7 @@ GitHub: https://github.com/
 今回のコミットで、ローカルのブランチ :file:`main` の先頭のコミットは今回のコミットになっています。まだ、リモートへは変更を反映していないので :file:`origin/main` は最初のコミットが先頭のままです。
 
 .. figure:: image/02/230.png
+    :width: 90%
 
 
 
@@ -353,6 +372,7 @@ VSCodeでは、選択しているブランチでリモートにないコミッ�
 送信タブを展開するとプッシュする対象のコミットを確認することができます。
 
 .. figure:: image/02/240.gif
+    :width: 100%
 
 
 
@@ -364,6 +384,7 @@ webブラウザでリモートリポジトリのページを開くと以下の�
 コミットの数が増えて変更も反映されているので問題なさそうですね。
 
 .. figure:: image/02/250.png
+    :width: 90%
 
 
 
